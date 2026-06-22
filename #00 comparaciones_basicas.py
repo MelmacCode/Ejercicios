@@ -4,7 +4,13 @@
 #Si el primero es menor o igual que el segundo.
 #Imprime los resultados con mensajes descriptivos.
 
-num1 = int(input("Ingrese un primer numero: "))
-num2 = int(input("Ingrese un segundo nunero: "))
+num1 = (input("Ingrese un primer numero: "))
+num2 = (input("Ingrese un segundo nunero: "))
 
-
+resultado = (num1 > num2)
+if resultado:
+    print("El primer numero es mayor que el segundo")
+elif num1 == num2:
+    print("Los numeros son iguales")
+else:
+    print("El primer numero es menor que elsegundo")
